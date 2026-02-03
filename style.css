@@ -1,7 +1,7 @@
 /**
  * MENU DE RESTAURANT
- * Nom de l'étudiant : [Votre nom]
- * Date : [Date]
+ * Nom de l'étudiant : Gaël Gutierrez
+ * Date : 2 Février 2026
 
    Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
  */
@@ -9,21 +9,82 @@
 /* ========================================
    RÉINITIALISATION DE BASE
    ======================================== */
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     font-family: "Felipa", serif;
+         list-style: none;
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
-    font-size: 1rem;
+    font-family: "Felipa", serif; /* Changez pour votre choix de police de caractères de Google Fonts*/
+    font-size: 1.5rem;
     line-height: 1.6;
-    color: #333; /* Ajutez avec votre couleur de texte principale */
-    background-color: #f9f9f9; /* Ajutez avec votre couleur de fond principale */
+    color: #ff00b3ff; /* Ajutez avec votre couleur de texte principale */
+    background-color:#ffc3f9ff; /* Ajutez avec votre couleur de fond principale */
 }
+
 
 /* ========================================
    VOTRE CODE CSS ICI
    ======================================== */
+
+.menu-category__title {
+      font-size: 1.65rem;
+      text-transform: uppercase;
+      background-color:#ffffff ;
+}
+
+.menu-item__title {
+      font-size: 1.45rem;
+      font-weight: bold;
+
+
+}
+
+.menu-item__title:hover {
+    text-decoration: underline;
+    }¸
+
+.menu-item__ingredients{
+          font-size: 1.25rem;
+              opacity: 0.75;
+              
+}
+
+.menu-item__price {
+  float: right;
+  z-index: 1;
+  font-size: 1.45rem;
+  padding: 30px 30px;
+}
+
+    
+  
+.menu {
+  max-width: 800px;
+  border: solid 5px #ffffff;
+      margin: 0 auto;
+      
+      
+}
+
+.nouveaute {
+      float: right;
+      text-transform: uppercase;
+      background-color:#7300ffff ;
+      padding: 2px;
+      color: #ffffff;
+}
+
+.tellementcremeux {
+      float: right;
+      text-transform: uppercase;
+      background-color:rgb(255, 0, 162) ;
+      padding: 2px;
+      color: #ffffff;
+}
+
